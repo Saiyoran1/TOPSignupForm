@@ -6,6 +6,50 @@
         <link rel='stylesheet' href='./index.css'>
     </head>
     <body>
-        
+        <div class='sidebar'>
+            <div class='logo'>
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class='content'>
+            <div class='content-top'>
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class='italic'>now</span> to get started.</p>
+                <p>You <span class='italic'>know</span> you want to.</p>
+            </div>
+            <div class='signup-container'>
+                <h3>Let's do this!</h3>
+                <form class='signup-form'>
+                    <div class='form-input'>
+                        <label for='firstName'>First Name</label>
+                        <input type='text' id='firstName'>
+                    </div>
+                    <div class='form-input'>
+                        <label for='lastName'>Last Name</label>
+                        <input type='text' id='lastName' class='focus'>
+                    </div>
+                    <div class='form-input'>
+                        <label for='email'>Email</label>
+                        <input type='email' id='email'>
+                    </div>
+                    <div class='form-input'>
+                        <label for='phoneNumber'>Phone Number</label>
+                        <input type='text' id='phoneNumber'>
+                    </div>
+                    <div class='form-input'>
+                        <label for='password'>Password</label>
+                        <input type='password' id='password' class='error'>
+                        <p class='error-text'>* Passwords do not match</p>
+                    </div>
+                    <div class='form-input'>
+                        <label for='confirmPassword'>Confirm Password</label>
+                        <input type='password' id='confirmPassword' class='error'>
+                    </div>
+                </form>
+            </div>
+            <div class='content-bottom'>
+                <button class='create-account'>Create Account</button>
+                <p>Already have an account? <a href='#' class='login-text'>Log in</a></p>
+            </div>
+        </div>
     </body>
 </html>
